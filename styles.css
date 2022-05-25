@@ -1,14 +1,14 @@
 * {
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     outline: none;
     font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background: #2051f1;
-    width: 100vh;
+    background: #707076;
+    width: 130vh;
     height: 50vh;
     justify-content: center;
     align-items: center;
@@ -21,9 +21,9 @@ body {
 }
 
 #input-principal {
-    width: 83%;
+    width: 85%;
     height: 40px;
-    border: 2px solid rgba(209, 211, 212, 0.4);
+    border: 2px solid #253af4;
     border-radius: 5px;
     padding-left: 10px;
     flex-wrap: wrap;
@@ -31,11 +31,11 @@ body {
 }
 
 #botao-adicionar {
-    background: #8f8f8f;
+    background: #253af4;
     border-radius: 5px;
     height: 40px;
     border: none;
-    padding: 0 15px;
+    padding: 0 20px;
     color: #FFFFFF;
     font-size: 17px;
     cursor: pointer;
